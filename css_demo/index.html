@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Claire CSS Demo</title>
+        <link rel="stylesheet" href="css/style.css"> 
+        <style>
+            #pink-text{
+               color:pink; 
+            }
+            
+            .test-class{
+                color:lawngreen;
+                text-align: center;
+            }
+
+            h2{
+                background-color:lemonchiffon;
+            }
+
+            body{
+                background-color:rgb(213, 213, 255);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+
+        <h1>Today, we will learn about adding style with CSS</h1>
+        <h2>This is how we add style with INLINE CSS.</h2>
+        <p style="color: darkturquoise;">I want this text to be blue</p>
+        <p style="color: red;">But I want this text to ber red</p>
+        <p style="color: blueviolet; text-align: center; font-size: x-large;">I want this text to be purple but centered</p>
+        <h2>This is how we use INTERAL Styling</h2>
+        <p id="pink-text">I want this text to be pink</p>
+        <p class="test-class">This is part of a class</p>
+        <h3 class="test-class">So is this</h3>
+        <h4 class="test-class">And so is this.</h4>
+
+        <h2>This is how we use EXTERNAL Styling</h2>
+
+        <h2>This is how we use divs and spans</h2>
+        <div class="div-test">
+            <p>This paragraph is part of my div</p>
+            <p>So is this one.</p>
+            <img src="images/picture.jpg" width="300">
+            <p>This is how we use spans</p>
+            <p>This <span class="span1">word</span> and this<span class="span2">group of words</span>will be styled differently.</p>
+        </div>
+
+        <h2>This is how we change the font.</h2>
+        <p style="font-family: 'Courier New', Courier, monospace;">Hello</p>
+        <p style="font-family: fantasy;">Hey</p>
+        <p>HI!</p>
+    </body>
+</html>
